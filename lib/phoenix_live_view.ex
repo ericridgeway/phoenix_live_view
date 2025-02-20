@@ -1561,7 +1561,6 @@ defmodule Phoenix.LiveView do
 
         {:ok, socket}
       end
-
   """
   defdelegate attach_hook(socket, name, stage, fun), to: Phoenix.LiveView.Lifecycle
 
